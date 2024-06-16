@@ -14,7 +14,7 @@ if (isBrowser) {
 export function addToCart(product: { id: number; }) {
   cartStore.update(cart => {
     const existingProduct = cart.find((item: { id: number; }) => item?.id === product?.id);
-    if (existingProduct) {
+    if (existingProduct) { 
       existingProduct.quantity += 1;
     } else {
       cart.push({ ...product, quantity: 1 });
