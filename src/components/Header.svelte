@@ -17,7 +17,7 @@
   let selectedPriceRange = "All";
   let sortByOptions = ["Price", "Popularity"];
   let selectedSortByOption = "Price";
-  let cart = [];
+  let cart = []; 
   let cartCount = 0;
 
   cartLength.subscribe((value) => {

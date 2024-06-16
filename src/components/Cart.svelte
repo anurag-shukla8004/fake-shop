@@ -8,7 +8,7 @@
     price: number;
     description: string;
     category: string;
-    image: string;
+    image: string; 
   };
 
   const dispatch = createEventDispatcher();
