@@ -1,38 +1,66 @@
-# create-svelte
+# Fake Store
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A modern e-commerce application built with Svelte, Tailwind CSS, and TypeScript.
 
-## Creating a project
+## Project Setup
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Prerequisites
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Make sure you have Node.js and npm installed on your machine.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Installation
 
-## Developing
+1. Clone the repository:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+    ```sh
+    git clone https://github.com/anurag-shukla8004/fake-shop.git
+    ```
 
-```bash
-npm run dev
+2. Navigate to the project directory:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+    ```sh
+    cd fake-shop
+    ```
 
-## Building
+3. Install dependencies:
 
-To create a production version of your app:
+    ```sh
+    npm install
+    ```
 
-```bash
-npm run build
-```
+4. Run the development server:
 
-You can preview the production build with `npm run preview`.
+    ```sh
+    npm run dev
+    ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Main Dependencies
+
+- **@babel/preset-env**: Transpiles modern JavaScript for older environments.
+- **@fortawesome/fontawesome-free**: Provides free font icons.
+- **@testing-library/jest-dom**: Custom Jest matchers for DOM node assertions.
+- **@testing-library/svelte**: Utilities for testing Svelte components.
+- **@types/jest**: TypeScript definitions for Jest.
+- **autoprefixer**: Adds vendor prefixes to CSS rules.
+- **babel-jest**: Babel integration for Jest.
+- **jest-environment-jsdom**: Jest environment for testing with jsdom.
+- **lodash**: Utility library for common programming tasks.
+- **postcss**: A tool for transforming CSS with JavaScript.
+- **svelte-french-toast**: Toast notification library for Svelte.
+- **svelte-jester**: Jest transformer for Svelte components.
+- **svelte-preprocess**: Preprocessor for Svelte to add support for TypeScript, SCSS, etc.
+- **svelte-routing**: Declarative routing for Svelte.
+- **ts-jest**: TypeScript preprocessor for Jest.
+
+## Live Demo
+
+Check out the live demo of the project: [Fake Store](https://elegant-basbousa-956151.netlify.app
+
+## Repository
+
+The source code is available on GitHub: [Fake Store Repository](https://github.com/anurag-shukla8004/fake-shop)
+
+## CI/CD
+
+This project uses GitHub Actions and Netlify for continuous integration and continuous deployment.
+
