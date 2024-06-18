@@ -1,4 +1,3 @@
-<<<<<<< feature/unit-testing
 # Fake Store
 
 A modern e-commerce application built with Svelte, Tailwind CSS, and TypeScript.
@@ -160,4 +159,3 @@ The source code is available on GitHub: [Fake Store Repository](https://github.c
 ## CI/CD
 
 This project uses GitHub Actions and Netlify for continuous integration and continuous deployment.
->>>>>>> main
